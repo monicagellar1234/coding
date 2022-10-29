@@ -2,11 +2,11 @@
 using namespace std;
 int main()
 {
-    //int age=0;
-    //cout<<"Enter the age: ";
-    //cin>>age;
+    //int age_of_man=0;
+    //cout<<"Enter the age of the man: ";
+    //cin>>age_of_man;
 
-   /* switch(age)
+   switch(age_of_man)
     {
         case 18:
         cout<<"you are 18 years old";
@@ -18,33 +18,19 @@ int main()
         cout<<"you are neither 18 nor 21";
         break;
     }
-    if (age<1 || age>150)
+    if (age_of_man<1 || age_of_man>150)
     {
         cout<<"Age is invalid";
 
     }
-    else if (age>=18)
+    else if (age_of_man>=18)
     {
         cout<<"you are eligible to vote";
     }
     else{
         cout<<"you are not eligible to vote";
-    }*/
+    }
 
-/*while(age<18)
-{
-    cout<<"your age is "<<age <<endl;
-    age=age+1;
-}*/
-/*do
-{
-    cout<<"your age is "<<age<<endl;
-    age=age+1;
-}while(age<18);*/
-for (int i=20;i<=34;i++)
-{
-    cout<<"the value of i is "<<i<<endl;
-}
 
 
 
