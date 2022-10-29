@@ -1,26 +1,26 @@
 #include<iostream>
 using namespace std;
-int add(int a,int b)
+int add(int first,int second)
 {
-    int c;
-    c=a+b;
-    return c;
+    int res;
+    res=first+second;
+    return res;
 }
-int sub(int a,int b)
+int sub(int first,int second)
 {
-    int c;
-    c=a-b;
-    return c;
+    int res;
+    res=first-second;
+    return res;
 }
 int main()
 {
-    int a,b;
+    int first,second;
     cout<<"enter the first number"<<endl;
-    cin>>a;
+    cin>>first;
     cout<<"enter the second number"<<endl;
-    cin>>b;
-    cout<<"the function returned to "<<add(a,b)<<endl;
-    cout<<"the function returned to "<<sub(a,b)<<endl;
+    cin>>second;
+    cout<<"the function returned to "<<add(first,second)<<endl;
+    cout<<"the function returned to "<<sub(first,second)<<endl;
 
 
     return 0;
