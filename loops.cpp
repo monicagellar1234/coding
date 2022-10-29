@@ -2,9 +2,9 @@
 using namespace std;
 int main()
 {
-    //int age_of_man=0;
-    //cout<<"Enter the age of the man: ";
-    //cin>>age_of_man;
+    int age_of_man=0;
+    cout<<"Enter the age of the man: ";
+    cin>>age_of_man;
 
    switch(age_of_man)
     {
