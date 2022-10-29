@@ -2,15 +2,15 @@
 using namespace std;
 int main()
 {
-    int a,b;
+    int first_num,second_num;
     cout<<"Enter the first number: ";
-    cin>>a;
+    cin>>first_num;
     cout<<"Enter the second number: ";
-    cin>>b;
-    cout<<"addiion is "<<a+b<<endl;
-    cout<<"subtraction is "<<a-b<<endl;
-    cout<<"multiplication is "<<a*b<<endl;
-    cout<<"division is "<<(float)a/b<<endl;
+    cin>>second_num;
+    cout<<"addiion is "<<first_num+second_num<<endl;
+    cout<<"subtraction is "<<first_num-second_num<<endl;
+    cout<<"multiplication is "<<first_num*second_num<<endl;
+    cout<<"division is "<<(float)first_num/second_num<<endl;
     return 0;
 
 }
